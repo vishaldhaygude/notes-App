@@ -1,0 +1,54 @@
+.note-card{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px 20px;
+    display: block;
+    margin: 30px auto;
+    cursor: pointer;
+    box-shadow: 0 0 15px grey;
+    position: relative;
+    width: 80%;
+    background-color: antiquewhite;
+}
+
+.note-card:hover{
+    background-color: #a3e68e;
+box-shadow: 0 0 20px grey;
+
+border: 0 0 10px sold grey;
+}
+
+.note-card-category{
+    background-color: #eca8a8;
+padding: 5px 15px;
+font-size: 20px;
+margin: 5px;
+position: absolute;
+top: 10px;
+right: 20px;
+
+
+}
+
+.delete-icon{
+    height: 25px;
+    position: absolute;
+    right: 120px;
+    bottom: 60px;
+    cursor: pointer;
+}
+
+.delete-icon:hover{
+background-color: transparent;
+color: azure;
+}
+
+.update-icon{
+    height: 22px;
+    position: absolute;
+    right: 150px;
+    bottom:50px;
+    cursor: pointer;
+    background-color: aqua ;
+    padding: 10px;
+    border-radius: 50%;
+}
